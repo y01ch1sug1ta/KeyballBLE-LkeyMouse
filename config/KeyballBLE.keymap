@@ -69,10 +69,10 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION                  &kp AT_SIGN           &kp HASH    &kp DOLLAR  &kp PERCENT                      &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&mt LEFT_CONTROL C_VOLUME_DOWN   &kp C_VOLUME_UP       &kp C_MUTE  &trans      &trans       &trans      &trans  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS             &kp EQUAL
-&mt LEFT_SHIFT C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans      &trans       &trans      &trans  &kp GRAVE      &kp SEMICOLON     &kp SINGLE_QUOTE   &kp UNDERSCORE        &kp PLUS
-&trans                           &trans                &trans      &trans      &trans       &trans      &trans  &trans                                                                    &trans
+&kp EXCLAMATION                  &kp AT_SIGN           &kp HASH    &kp DOLLAR        &kp PERCENT                                   &kp CARET  &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&mt LEFT_CONTROL C_VOLUME_DOWN   &kp C_VOLUME_UP       &kp C_MUTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans      &kp BACKSLASH  &kp GRAVE  &kp SEMICOLON  &kp SINGLE_QUOTE   &kp MINUS             &kp EQUAL
+&mt LEFT_SHIFT C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans      &kp PIPE       &kp TILDE  &kp COLON      &kp DOUBLE_QUOTES  &kp UNDERSCORE        &kp PLUS
+&trans                           &trans                &trans      &trans            &trans             &trans      &trans         &trans                                                             &trans
             >;
 
             sensor-bindings = <&ROTATE SCRL_LEFT SCRL_RIGHT>;
