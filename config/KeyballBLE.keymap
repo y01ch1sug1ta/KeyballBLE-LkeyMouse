@@ -63,7 +63,7 @@
 &kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE  &lt 2 TAB        &kp BACKSPACE  &lt 3 RIGHT_COMMAND                                &lt 6 ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
@@ -74,7 +74,7 @@
 &trans                           &trans                &trans      &trans      &trans       &trans      &trans  &trans                                                                    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&ROTATE SCRL_LEFT SCRL_RIGHT>;
         };
 
         NUM {
