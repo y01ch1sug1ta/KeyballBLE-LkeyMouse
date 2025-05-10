@@ -94,8 +94,6 @@
 &trans         &trans                  &trans                 &trans                   &trans  &trans      &trans  &trans    &kp LA(LEFT_ARROW)  &trans          &kp LA(RIGHT_ARROW)  &trans
 &trans         &trans                  &trans                 &trans                   &trans  &trans      &trans  &trans                                                             &trans
             >;
-
-            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
 
         NOT_USED {
@@ -132,8 +130,6 @@
 &trans  &trans              &trans              &trans               &trans  &trans      &trans  &kp LG(KP_MINUS)  &kp LS(LC(TAB))  &trans     &kp LC(TAB)  &trans
 &trans  &trans              &trans              &trans               &trans  &trans      &trans  &trans                                                     &trans
             >;
-
-            sensor-bindings = <&ROTATE SCRL_UP SCRL_DOWN>;
         };
     };
 };
